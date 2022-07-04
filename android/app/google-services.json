@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "239983905641",
+    "project_id": "orangenote-flutter",
+    "storage_bucket": "orangenote-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239983905641:android:fc277f6b3067e5c8434bf8",
+        "android_client_info": {
+          "package_name": "com.orange.orangenote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239983905641-k18kssnnqmai6njo68vd2l4usev4u064.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW72OsEXMv0ZO6LvlGvsq6eOTq-aY5Hvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239983905641-k18kssnnqmai6njo68vd2l4usev4u064.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
