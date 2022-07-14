@@ -292,7 +292,7 @@ class DatabaseNote {
       'Note, ID = $id, userId = $userId, isSyncedWithCloud = $isSyncedWithCloud, text = $text';
 
   @override
-  bool operator ==(covariant DatabaseUser other) => id == other.id;
+  bool operator ==(covariant DatabaseNote other) => id == other.id;
 
   @override
   int get hashCode => id.hashCode;
@@ -302,7 +302,7 @@ const dbName = 'notes.db';
 const noteTable = 'note';
 const userTable = 'user';
 const idColumn = "id";
-const emailColumn = "column";
+const emailColumn = "email";
 const userIdColumn = "user_id";
 const textColumn = "text";
 const isSyncedWithCloudColumn = "is_synced_with_cloud";
